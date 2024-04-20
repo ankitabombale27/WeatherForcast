@@ -1,0 +1,78 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    background-image: url('pexels-josh-sorenson-1384901.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 19cm;
+}
+
+#maindiv{
+    height: 10cm;
+    width: 20cm;
+    background-image: linear-gradient(to bottom right, rgb(49, 118, 130), rgb(206, 226, 232));
+    opacity: 0.7;
+    box-shadow: 0 3px 25px rgba(0, 0, 0, 1);
+}
+
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#divtemperature{
+    height: 4cm;
+    padding-right: 20px;
+}
+
+#lastdiv{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img{
+    height: 0.7cm;
+}
+
+.addinfo{
+    width: 3.5cm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#cityname{
+    width: 5cm;
+    height: 1cm;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgb(187, 195, 196);
+}
+
+#btn{
+    background-image: url('search.png');
+    background-size: cover;
+    background-position: center;
+    height: 1cm;
+    width: 1cm;
+    border-radius: 20px;
+    margin-left: 15px;
+}
+
+#temperature{
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bolder;
+    font-size: 3cm;
+    margin: 0%;
+}

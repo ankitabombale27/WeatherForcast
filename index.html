@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherForecast.com</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="weather.js"></script>
+</head>
+
+<body id="body">
+    <div id="maindiv">
+        <div id="header">
+
+            <H3 style="padding-left: 15px;">WeatherForecast.com</H3>
+
+            <div style="display: flex; justify-content: flex-end; padding-right: 15px;">
+                <input type="text" placeholder="Enter your city" id="cityname">
+                <button onclick="getinfo()" id="btn"></button>
+            </div>
+        </div>
+
+        <div id="divtemperature">
+            <h3 id="temperature"> 32°c</h3>
+        </div>
+
+        <div id="lastdiv">
+            <div class="addinfo">
+                <h3><img src="placeholder.png" alt=""></h3>
+                <h3 id="city">Mumbai</h3>
+            </div>
+
+            <div class="addinfo">
+                <h3><img src="humidity.png" alt=""></h3>
+                <h3 id="humidity"> 50%</h3>
+            </div>
+
+            <div class="addinfo">
+                <h3><img src="cloud.png" alt=""></h3>
+                <h3 id="clouds">40%</h3>
+            </div class="addinfo">
+
+            <div class="addinfo">
+                <h3><img src="wind.png" alt=""></h3>
+                <h3 id="windspeed"> 5.0km/h</h3>
+            </div>
+
+            <div class="addinfo">
+                <h3><img src="info.png" alt=""></h3>
+                <h3 id="description">Haze</h3>
+            </div>
+        </div>
+
+
+
+    </div>
+</body>
+
+</html>
